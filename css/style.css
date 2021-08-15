@@ -1,45 +1,23 @@
-/*@font-face {
-  font-family: "oswald";
-  src: url("fonts/Oswald-Light.ttf");
-  font-weight: 200;
+body {
+  background-color: rgb(255, 208, 0);
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-
-html {
-  background-color: cornsilk;
+.centerBlock {
+  width: 70%;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 15%;
 }
 
-h3 {
-  font-family: "oswald";
-}
-
-#menu1 {
-  color: brown;
-}
-
-#menu2 {
-  color: darkgreen;
-}
-
-img {
-  width: 300px;
-}
-
-.content {
-  font-family: "Roboto", sans-serif;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.img-div {
-  background-color: darkolivegreen;
-}
-
-img {
-  margin: 1%;
-  width: 22.7%;
-  box-shadow: 5px 5px 7px black;
+.navButton {
+  display: inline-block;
+  background-color: brown;
+  border-radius: 4px;
+  width: 33%;
+  height: 40px;
+  position: relative;
+  left: 2px;
+  line-height: 40px;
+  text-align: center;
 }

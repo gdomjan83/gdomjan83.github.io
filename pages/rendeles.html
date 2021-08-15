@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burgerkirály</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <a href="/index.html">Főoldal</a><a href="/pages/etlap.html">Étlap </a><a href="/pages/akciok.html">Akciók </a>
+    <h2>Add le a rendelésed!</h2>
+    <br />
+    <form>
+      <fieldset>
+        <legend>Személyes adatok</legend>
+        <div>
+          <label for="name">Név: </label>
+          <input name="name" id="name" type="text" placeholder="Név" required />
+        </div>
+        <div>
+          <label for="email">Email: </label>
+          <input name="email" id="email" type="email" placeholder="Email cím" required />
+        </div>
+        <div>
+          <label for="address">Cím: </label>
+          <input name="address" id="address" type="text" placeholder="Szállítási cím" required />
+        </div>
+        <div>
+          <label for="notes">Megjegyzés: </label>
+          <textarea name="notes" id="notes" rows="10"></textarea>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Termék adatai</legend>
+        <span> Extra feltét: </span>
+        <div>
+          <input type="radio" name="extra" id="nincs" checked />
+          <label for="nincs">Nem kérek</label>
+        </div>
+        <div>
+          <input type="radio" name="extra" id="feltet1" />
+          <label for="feltet1">Feltét 1</label>
+        </div>
+        <div>
+          <input type="radio" name="extra" id="feltet2" />
+          <label for="feltet2">Feltét 2</label>
+        </div>
+        <div>
+          <input type="radio" name="extra" id="feltet3" />
+          <label for="feltet3">Feltét 3</label>
+        </div>
+        <div>
+          <input type="radio" name="extra" id="feltet4" />
+          <label for="feltet4">Feltét 4</label>
+        </div>
+        <div>
+          <input type="radio" name="extra" id="feltet5" />
+          <label for="feltet5">Feltét 5</label>
+        </div>
+        <div>
+          <label for="szosz">Szósz:</label>
+          <select name="szosz" id="szosz">
+            <option value="0" selected>Nem kérek</option>
+            <option value="0">Szósz 1</option>
+            <option value="0">Szósz 2</option>
+          </select>
+        </div>
+        <div>
+          <label for="mennyiseg">Mennyiség: </label>
+          <input type="number" id="mennyiseg" value="1" min="1" max="10" />
+        </div>
+      </fieldset>
+      <input type="button" value="Rendelés leadása" />
+    </form>
+  </body>
+</html>
