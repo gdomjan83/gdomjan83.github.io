@@ -1,0 +1,45 @@
+/*@font-face {
+  font-family: "oswald";
+  src: url("fonts/Oswald-Light.ttf");
+  font-weight: 200;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+html {
+  background-color: cornsilk;
+}
+
+h3 {
+  font-family: "oswald";
+}
+
+#menu1 {
+  color: brown;
+}
+
+#menu2 {
+  color: darkgreen;
+}
+
+img {
+  width: 300px;
+}
+
+.content {
+  font-family: "Roboto", sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.img-div {
+  background-color: darkolivegreen;
+}
+
+img {
+  margin: 1%;
+  width: 22.7%;
+  box-shadow: 5px 5px 7px black;
+}
